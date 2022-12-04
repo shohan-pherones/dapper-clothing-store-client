@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Home from "./pages/Home";
-import Product from "./pages/Product";
-import Products from "./pages/Products";
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+import Product from "./pages/Product";
 import Footer from "./components/Footer";
 
 const Layout = () => {
@@ -38,9 +38,9 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
-    <>
+    <div className="app min-h-screen bg-gray-50 text-gray-700">
       <RouterProvider router={router} />
-    </>
+    </div>
   );
 };
 
