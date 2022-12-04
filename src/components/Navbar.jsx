@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
         <div className="right flex gap-5">
           <div className="right-links flex gap-5">
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/shop">Shop</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
