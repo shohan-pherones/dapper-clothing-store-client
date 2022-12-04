@@ -1,5 +1,3 @@
-import "./Products.scss";
-
 const Products = () => {
   return <div>Products</div>;
 };
