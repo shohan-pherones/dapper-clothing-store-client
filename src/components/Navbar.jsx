@@ -7,7 +7,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 const Navbar = () => {
   return (
-    <nav className="navbar bg-white h-20 flex items-center justify-center">
+    <nav className="navbar h-20 flex items-center justify-center">
       <div className="container mx-auto flex justify-between items-center gap-5">
         <div className="left flex gap-5">
           <div className="buttons flex gap-3">
