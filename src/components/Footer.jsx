@@ -4,8 +4,8 @@ import PaymentImage from "../assets/images/payment.png";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container mx-auto py-10 flex flex-col gap-5 text-gray-500">
-        <div className="top flex gap-5">
+      <div className="container mx-auto py-20 flex flex-col gap-5 text-gray-500 border-t">
+        <div className="top flex gap-10">
           <div className="part flex flex-col flex-1 gap-1">
             <span className="uppercase text-lg tracking-widest font-semibold text-gray-700">
               Categories
@@ -57,7 +57,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="part flex-1">
-            <img src={PaymentImage} alt="Payment banner" />
+            <img src={PaymentImage} alt="Payment banner" className="w-full" />
           </div>
         </div>
       </div>
