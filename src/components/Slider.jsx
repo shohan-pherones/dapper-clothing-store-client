@@ -55,13 +55,13 @@ const Slider = () => {
       </div>
       <div className="icons absolute left-0 right-0 m-auto w-fit bottom-20 flex gap-10">
         <div
-          className="icon bg-black/20 w-20 h-14 text-white flex items-center justify-center border border-white/30 backdrop-blur-xl cursor-pointer select-none"
+          className="icon bg-black/80 w-20 h-14 text-white flex items-center justify-center backdrop-blur-xl cursor-pointer select-none"
           onClick={prevSlide}
         >
           <WestIcon />
         </div>
         <div
-          className="icon bg-black/20 w-20 h-14 text-white flex items-center justify-center border border-white/30 backdrop-blur-xl cursor-pointer select-none"
+          className="icon bg-black/80 w-20 h-14 text-white flex items-center justify-center backdrop-blur-xl cursor-pointer select-none"
           onClick={nextSlide}
         >
           <EastIcon />
